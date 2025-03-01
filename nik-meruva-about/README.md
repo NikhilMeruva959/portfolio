@@ -1,54 +1,58 @@
-# React + TypeScript + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio repository! This site showcases my projects, blog entries, and my thoughts on technology trends.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I'm Nikhil Meruva, a Computer Science graduate from Stony Brook University specializing in full-stack development, data engineering, and sports analytics. This portfolio serves as a platform to share my work, ongoing projects, and insights into the latest tech trends.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Vite:** A fast development build tool.
+- **React:** For building the user interface.
+- **TypeScript:** For type safety and enhanced code quality.
+- **Tailwind CSS:** For rapid and modern styling.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Responsive Design:** Built with Tailwind CSS to ensure the site looks great on all devices.
+- **Modern Development:** Utilizes Vite for lightning-fast development and bundling.
+- **Clean Code:** Written in TypeScript for better maintainability and fewer runtime errors.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Installation
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+To run this portfolio locally, follow these steps:
+
+1. **Clone the repository:**
+   git clone https://github.com/NikhilMeruva959/portfolio.git
+
+2. **Navigate into the project directory:**
+  cd portfolio
+
+3. **Install dependencies: Using npm:**
+  npm install
+
+4. **Run the development server: Using npm:**
+  npm run dev
+
+5. **Open your browser: Visit http://localhost:3000 (or the port specified in your terminal) to view the site.**
+
+## Project Structure
+The project is organized as follows:
+portfolio/
+├── public/              # Static assets
+├── src/                 # Source files (components, pages, styles)
+│   ├── assets/          # Images and other media assets
+│   ├── components/      # Reusable React components
+│   ├── pages/           # Individual pages (Home, Contact, etc.)
+│   ├── App.tsx          # Main app component
+│   └── main.tsx         # Entry point
+├── tailwind.config.js   # Tailwind CSS configuration
+├── tsconfig.json        # TypeScript configuration
+├── package.json         # Project metadata and scripts
+└── README.md            # This file
+
+## Contact
+For any inquiries or feedback, please email me at nikhil.meruva959@gmail.com.
+
+Thank you for visiting my portfolio!
