@@ -6,7 +6,7 @@ import { Button } from './ui/button';
 const Header: React.FC = () => {
   return (
     <header>
-      <nav style={{ display: 'flex', gap: '20px' }}>
+      <nav className="flex gap-5 mt-10">
         <Link to="/">
           <Button variant="link">Home</Button>
         </Link>
