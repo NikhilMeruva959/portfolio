@@ -14,6 +14,9 @@ const Footer: React.FC = () => {
         <a href="https://github.com/NikhilMeruva959/portfolio" target="_blank" rel="noopener noreferrer" className="mr-4">
           ↗ view source
         </a>
+        <a href="https://www.linkedin.com/in/nik-meruva/" target="_blank" rel="noopener noreferrer" className="mr-4">
+          ↗ linkedin
+        </a>
       </p>
     </footer>
   );
