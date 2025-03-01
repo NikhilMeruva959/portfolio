@@ -38,7 +38,8 @@ To run this portfolio locally, follow these steps:
 5. **Open your browser: Visit http://localhost:3000 (or the port specified in your terminal) to view the site.**
 
 ## Project Structure
-The project is organized as follows:
+
+```bash
 portfolio/
 ├── public/              # Static assets
 ├── src/                 # Source files (components, pages, styles)
@@ -51,6 +52,7 @@ portfolio/
 ├── tsconfig.json        # TypeScript configuration
 ├── package.json         # Project metadata and scripts
 └── README.md            # This file
+```
 
 ## Contact
 For any inquiries or feedback, please email me at nikhil.meruva959@gmail.com.
